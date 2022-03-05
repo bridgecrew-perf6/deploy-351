@@ -1,0 +1,28 @@
+{
+  "name": "tinyurl-telegram-bot",
+  "version": "1.0.0",
+  "description": "TinyURL bot for telegram...",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bipuldey19/URL-Shortner-Telegram-Bot-Online"
+  },
+  "keywords": [
+    "TinyURL"
+  ],
+  "author": "Bipul Dey",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-telegram-bot-api": "^0.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
